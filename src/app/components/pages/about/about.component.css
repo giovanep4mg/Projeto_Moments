@@ -1,0 +1,19 @@
+.about{
+display: flex;
+/* colocar um abaixo do outro*/
+flex-direction: column;
+/* alinhar na horizontal e vertical */
+align-items: center;
+justify-content: center;
+/* espaço interno entre eles */
+padding: 2em;
+}
+
+h2, p {
+  margin-bottom: 1em;
+}
+
+.about a{
+  /* link */
+  text-decoration: underline;
+}
